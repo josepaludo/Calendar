@@ -1,0 +1,31 @@
+/* --------------- TAGS --------------- */
+a {
+    text-decoration: none;
+}
+
+/* --------------- CLASSES --------------- */
+.littleDiv {
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+.littleDiv:hover {
+    background-color: silver;
+    color: black;
+}
+
+.calendarGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.yearTitle:hover, .monthTitle:hover {
+    cursor: pointer;
+}
+
+/* --------------- IDS --------------- */
+#yearsDiv * hr {
+    display: none;
+}
+
+#yearsDiv, #monthsDiv, #daysDiv {
+    display: none;
+}
